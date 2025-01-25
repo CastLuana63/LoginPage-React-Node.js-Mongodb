@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.conteiner {
+  min-height: 100vh;
+  background: url(../../assets/imgBack.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card2 {
+  min-width: 350px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+
+.card2 h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form-box2 {
+  position: relative;
+  margin: 10px 0;
+  width: 100%;
+  height: 30px;
+}
+
+.form-box2 input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 15px;
+  padding: 10px 15px 10px 15px;
+}
+
+.form-box2 input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.form-box2 i {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  transform: translate(-50%);
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.card2 .btn {
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0);
+}
+
+.card2 .btn:hover {
+  background-color: #ffffffdc;
+}
+
+.boxinfos {
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  
+}
+
+.box {
+  margin-top: 5px;
+  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 4px;
+}
+
+.box-item {
+  width: 90%;
+  margin-left: 5px;
+}
+
+.box-item p {
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.box button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.delete{
+  padding: none;
+  border: none;
+}
+
+.icon {
+  color: #C62E2E;
+  font-size: 28px;
+  text-align: center;
+}
+
+.box-item p span {
+  color:  #ffffffdc;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px;
+  background-color: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease; 
+}
+
+.boxinfos:hover ::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.boxinfos {
+  overflow-y: auto;
+  scrollbar-width: none; 
+}
+
+.boxinfos:hover {
+  scrollbar-width: thin; 
+  scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.2); 
+}
