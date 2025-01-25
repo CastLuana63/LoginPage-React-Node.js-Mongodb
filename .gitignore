@@ -16,7 +16,7 @@
 /frontend/lerna-debug.log*
 /frontend/*.local
 
-# Editor directories and files (aplicável a todo o projeto)
+# Editor directories and files
 .vscode/
 .idea/
 .DS_Store
