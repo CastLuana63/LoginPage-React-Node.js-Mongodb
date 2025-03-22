@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(../src/assets/imgBack.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  min-width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 31px 41px;
+}
+
+.card h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.form-box {
+  position: relative;
+  margin: 1rem 0;
+  width: 100;
+  height: 50px;
+}
+
+.form-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  padding: 20px 45px 22px 20px;
+}
+
+.form-box input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.form-box i {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  transform: translate(-50%);
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.card .about-box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: 15px 0 15px 0;
+}
+
+.about-box label input {
+  accent-color: #fff;
+}
+
+.about-box a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.about-box a:hover {
+  text-decoration: underline;
+}
+
+.card .btn {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0);
+}
+
+.card .btn:hover {
+  background-color: #ffffffdc;
+}
+
+.card .create-account {
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.card .create-account p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card .create-account p a:hover {
+  text-decoration: underline;
+}
+
+#create {
+  display: none;
+}
+
+#password {
+  display: none;
+  position: relative;
+}
+
+#password h1 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#password .forgetpass p {
+  text-align: center;
+  align-items: center;
+}
+
+.btnBack {
+  text-decoration: none;
+  border: none;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: transparent;
+  font-size: 30px;
+  color: #fff;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
+
+.fonte {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
+.fonte:hover {
+  width: 300px;
+  height: 200px;
+  padding-left: 50px;
+}
+
+.fonte .fonte-item p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  transition: margin-left 0.5s;
+  margin-left: 50px;
+}
+
+.fonte .fonte-item h3 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.fonte:hover .fonte-item p {
+  margin-left: 0;
+}
+
+.fonte .i {
+  font-size: 40px;
+  background-color: transparent;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+}
+
+.box-fonte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.fonte-item {
+  width: 100%;
+}
+
+.fonte-item a {
+  outline: none;
+  font-size: 16px;
+  color: #3abef9;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.fonte-item i {
+  font-size: 16px;
+  color: #3abef9;
+}
