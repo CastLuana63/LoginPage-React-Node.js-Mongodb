@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 //Limita Acesso a API
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({ origin: "https://login-page-react-node-js-mongodb.vercel.app" }));
 
 //Criar usuário
 app.post("/usuarios", async (req, res) => {
